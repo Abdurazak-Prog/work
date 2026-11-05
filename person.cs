@@ -6,4 +6,6 @@ public string LastName { get; set; } = string.Empty;
 public int Age { get; set; }
 
 public float Grade { get; set; }
+
+public DateOnly DateOfBirth { get; set; }   
 }

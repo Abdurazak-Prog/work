@@ -17,10 +17,11 @@ person1.ID = 1;
 person1.FirstName = "Ahmad";
 person1.LastName = "Ali";
 person1.Age = 22;
-
+person1.DateOfBirth = DateOnly.FromDateTime(new DateTime(2000, 1, 1));
 Console.WriteLine($"ID: {person1.ID}");
 Console.WriteLine($"Name: {person1.FirstName} {person1.LastName}");
 Console.WriteLine($"Age: {person1.Age}");
+Console.WriteLine($"Date of Birth: {person1.DateOfBirth}");
 
 public sealed class AppSettings
 {
