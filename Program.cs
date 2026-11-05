@@ -18,6 +18,7 @@ person1.FirstName = "Ahmad";
 person1.LastName = "Ali";
 person1.Age = 22;
 person1.DateOfBirth = DateOnly.FromDateTime(new DateTime(2000, 1, 1));
+person1.Nationality="Ethiopian";
 Console.WriteLine($"ID: {person1.ID}");
 Console.WriteLine($"Name: {person1.FirstName} {person1.LastName}");
 Console.WriteLine($"Age: {person1.Age}");
