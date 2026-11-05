@@ -10,4 +10,6 @@ public float Grade { get; set; }
 public DateOnly DateOfBirth { get; set; }   
 
 public string placeOfBirth { get; set; } = string.Empty;
+
+public string Nationality { get; set; } = string.Empty;
 }
