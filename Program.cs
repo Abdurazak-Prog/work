@@ -11,6 +11,17 @@ Console.WriteLine($"Environment: {appsettings?.EnvironmentName}");
 Console.WriteLine($"Greeting: {appsettings?.Greeting}");
 Console.WriteLine($"Password: {appsettings?.Password}");
 
+Person person1 = new Person();
+
+person1.ID = 1;
+person1.FirstName = "Ahmad";
+person1.LastName = "Ali";
+person1.Age = 22;
+
+Console.WriteLine($"ID: {person1.ID}");
+Console.WriteLine($"Name: {person1.FirstName} {person1.LastName}");
+Console.WriteLine($"Age: {person1.Age}");
+
 public sealed class AppSettings
 {
 public string EnvironmentName { get; set; } = string.Empty;
